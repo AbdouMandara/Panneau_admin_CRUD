@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil | User ou Admin</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background-color: #FF3F33;
+
+        & main{
+                 background-color:white;
+                 border-radius: 20px;
+        height: 50%;
+        width: 700px;
+        display: flex;
+        gap: 1em;
+        padding: 1em ;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    & p{
+        font-size: 1.25em;
+        margin-bottom: 2em;
+    }
+    & div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+                gap: 2em;
+                & a{
+                    text-decoration: none;
+                    font-family: 'winky rough';
+                    background-color: #FF3F33;
+                    color: #fff;
+                    border-radius: 3em;
+                    border: none;
+                    font-size: 1.5em;
+                    outline: black;
+                    padding: 0.25em 1.25em;
+                    transition: all .25s ease-in-out;
+                    &:hover{
+                        scale: 1.015;
+                    }
+                }
+            }
+            }
+        
+    </style>
+</head>
+<body>
+    <main>
+    <p>Veuillez vous connecter en tant qu'utilisateur ou administrateur</p>
+
+    <div>
+        <a href="admin_infos/login_admin.php">Admin</a>
+        <a href="C:\Users\HADJA\Desktop\Tes_projets_en_Dev\achat & vente\index.html">Utilisateur</a>
+    </div>
+    </main>
+</body>
+</html>
