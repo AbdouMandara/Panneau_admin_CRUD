@@ -1,0 +1,3 @@
+#ignore le fichier de configuration de la base de données
+conn_dbb.php
+#ignore le fichier de configuration de la base de données

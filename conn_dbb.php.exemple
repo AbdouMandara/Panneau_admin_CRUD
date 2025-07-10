@@ -1,0 +1,15 @@
+<?php
+// Connexion à la base de données MySQL
+$servername = "localhost";
+$username = "NOM_UTILISATEUR";  // 🔸 À remplacer par vos infos
+$password = "MOT_DE_PASSE";     // 🔸 À remplacer par vos infos
+$dbname = "NOM_BDD";            // 🔸 À remplacer par vos infos
+
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+// if ($conn) {
+//   echo 'connexion réussi';
+// }else{
+//     die("Erreur" . mysqli_connect_error());
+// }
+?>
